@@ -6,6 +6,7 @@
         background-color: #0D0D0D;
         min-height: 100vh;
         margin: 0;
+        
 
 
     }
@@ -56,28 +57,22 @@
 
 
 
-
-
-
     /*Sección de la página principal*/
 
     .flex-container {
-        flex: 1;
         display: flex;
         justify-content: center;
         /* Espacio entre los elementos */
         align-items:center;
         /* Centrar verticalmente */
-        height: 25vh;
+        height: 20vh;
         /* Altura completa de la ventana */
         text-align: center;
         flex-direction: column;
 
-
     }
 
     .flex-item {
-
         color: #ff4d4d;
         font-family: 'Montserrat', sans-serif;
         /* Color de fondo verde */
@@ -104,6 +99,24 @@
 
 
 
+
+.btn-outline-danger {
+    border-color: #ff4d4d;
+    color: #ff4d4d;
+}
+
+.btn-outline-danger:hover {
+    background-color: #ff4d4d;
+    color: white;
+    box-shadow: 0 0 10px #ff4d4d;
+}
+
+
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #ff4d4d;
+}
     /*Footer*/
 
 
@@ -136,4 +149,69 @@
 
 
 
+
+
+
+
+
+/* ajustes pagian home*/
+
+
+/* Centrando el título "Whoami" en la parte superior */
+.whoami-title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    /* 20% de la altura de la ventana */
+    background-color: #1A1A1A;
+    /* Fondo opcional */
+
+    
+}
+
+.whoami-title-section h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #ff4d4d;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 8px rgba(255, 0, 0, 0.7);
+}
+
+/* Manteniendo la imagen y descripción debajo */
+.whoami-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.whoami-container {
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+
+}
+
+.whoami-image img {
+    max-width: 300px;
+    
+    border-radius: 50%;
+   
+    margin-right: 20px;
+
+}
+
+.whoami-description {
+    color: #DFE0F2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.whoami-description p {
+    font-size: 1.2rem;
+}
+
+form {
+    margin-top: 20px;
+}
 
